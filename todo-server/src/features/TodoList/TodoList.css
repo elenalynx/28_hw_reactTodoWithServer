@@ -1,0 +1,11 @@
+.todoListWrapper {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #F1EBE7;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.todoListWrapper ul{
+    padding-left: 0;
+}

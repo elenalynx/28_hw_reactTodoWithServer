@@ -1,0 +1,35 @@
+.todoItem {
+    padding: 5px 8px;
+    margin-bottom: 5px;
+    background-color: #F1EBE7;
+    border: 1px solid #DACEC6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todoItem:hover {
+    background-color: #DACEC6;
+}
+
+.todoItem .todoInput {
+    gap: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*.todoItem .btnWrapper {*/
+/*    gap: 5px;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+/*.todoItem .btn-outline-secondary {*/
+/*    background-color: #DACEC6;*/
+/*    color: #68513F;*/
+/*    border: 1px solid #68513F;*/
+/*}*/
+/*.todoItem .btn-outline-secondary:hover {*/
+/*    background-color: #68513F;*/
+/*    color: #DACEC6;*/
+/*}*/

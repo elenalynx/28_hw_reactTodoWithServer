@@ -1,9 +1,11 @@
+import './Footer.css';
+
 export default function Footer(prors) {
     return (
-        <div>
-            <button>All</button>
-            <button>Done</button>
-            <button>Not done</button>
+        <div className={'footerWrapper btn-group'}>
+            <button className={'btn btn-outline-secondary'}>All</button>
+            <button className={'btn btn-outline-secondary'}>Done</button>
+            <button className={'btn btn-outline-secondary'}>Not done</button>
         </div>
     );
 }

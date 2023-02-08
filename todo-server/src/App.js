@@ -1,3 +1,4 @@
+import './App.css';
 import Header from "./features/Header/Header";
 import TodoList from "./features/TodoList/TodoList";
 import Footer from "./features/Footer/Footer";

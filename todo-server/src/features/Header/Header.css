@@ -1,0 +1,25 @@
+.formWrapper {
+    padding: 10px;
+    background-color: #DACEC6;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    /*box-shadow: 15px 15px 30px rgba(0, 0, 0, .15);*/
+}
+
+.form_app {
+    background-color: inherit;
+    /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+}
+.form_app label {
+    margin-right: 5px;
+}
+.form_app input {
+    background-color: #F1EBE7;
+    border: 1px solid #DACEC6;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 90%;
+    }
+
+
