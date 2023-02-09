@@ -44,9 +44,12 @@ export default function useTodo() {
     }
 
     function onTodoRemove(id) {
-        const newList = list.filter(todoItem => todoItem.id !== id);
-
-        setList(newList);
+        TodoApi
+            .delete(id)
+            .then(() => {
+                const newList = list.filter(todoItem => todoItem.id !== id);
+                setList(newList);
+            })
     }
 
     function onTodoEdit(todo) {
